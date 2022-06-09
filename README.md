@@ -1,4 +1,7 @@
-Tareas: Las tareas consisten en probar tus compresion de react js asi como el conocimiento en git.
+Tiempo : 60 minutos.
+# Instrucciones : 
+Realiza las tareas en el orden en que se encuentran especificadas y haz un commit por cada tarea completada con el nombre de la tarea.
+Las tareas consisten en probar tus habilidades en react js asi como el conocimiento basico en git.
 # Conociendo tus habilidades en git
 1. Clona este repositorio (https://github.com/reactjsmx/reactjschallengev1/)
 2. Crea un feature branch llamado `react2022-{tuNombre_apellido}` en git
@@ -40,7 +43,7 @@ Tu tarea es renderizar todo lo que contenga el componente `Child` modificando so
 
 # Tarea2: Agregando unit testing
 Agrega https://testing-library.com/docs/react-testing-library/intro/ al projecto y escribe una prueba unitaria para probar que el child se este renderizando correctamente.
-Haz un commit con el nombre de la tarea 
+
 
 # Tarea3: Agregando botones al child 
 En la funcion child agrega 2 botones : uno que contenga el label `incrementar` y otro `decrementar`, los botones deben de ser capaces de incrementar/decrementar el contador localizado en la funcion `App` , la funcion App debe ser similar al siguiente ejemplo, haz los cambios pertinentes para tener un contador funcional.
@@ -54,18 +57,18 @@ En la funcion child agrega 2 botones : uno que contenga el label `incrementar` y
   );
 }`
 # Child.js
- `function Child() {
-  return <div>
-     <button>Incrementar</button>
-     <button>Decrementar</button>
-  </div>;
+`function Child() {
+  return (
+    <div>
+       <button>Incrementar</button>
+       <button>Decrementar</button>
+    </div>
+  );
 }`
+
 # Tarea 5 : Agregando unit test en App.js
-Agrega una prueba unitaria(unit test) para asegurarte que el contador se este renderizando correctamente
-Haz el commit con el nombre de la tarea
+Agrega una prueba unitaria(unit test) para asegurarte que el contador se este renderizando correctamente.
 
 # Tarea 6: Crea un pull request en el repositorio 
 
 # Felicidades has completado el primer react challenge !!!!
-
-
