@@ -38,3 +38,34 @@ function App() {
 # Objetivo
 Tu tarea es renderizar todo lo que contenga el componente `Child` modificando solamente function `Parent` una vez completada la tarea 1 deberás hacer el commit con el nombre de la tarea.
 
+# Tarea2: Agregando unit testing
+Agrega https://testing-library.com/docs/react-testing-library/intro/ al projecto y escribe una prueba unitaria para probar que el child se este renderizando correctamente.
+Haz un commit con el nombre de la tarea 
+
+# Tarea3: Agregando botones al child 
+En la funcion child agrega 2 botones : uno que contenga el label `incrementar` y otro `decrementar`, los botones deben de ser capaces de incrementar/decrementar el contador localizado en la funcion `App` , la funcion App debe ser similar al siguiente ejemplo, haz los cambios pertinentes para tener un contador funcional.
+# App.js
+`function App() {
+  return (
+    <Parent>
+       <p>valor de contador aqui </p>
+      <Child />
+    </Parent>
+  );
+}`
+# Child.js
+ `function Child() {
+  return <div>
+     <button>Incrementar</button>
+     <button>Decrementar</button>
+  </div>;
+}`
+# Tarea 5 : Agregando unit test en App.js
+Agrega una prueba unitaria(unit test) para asegurarte que el contador se este renderizando correctamente
+Haz el commit con el nombre de la tarea
+
+# Tarea 6: Crea un pull request en el repositorio 
+
+# Felicidades has completado el primer react challenge !!!!
+
+
